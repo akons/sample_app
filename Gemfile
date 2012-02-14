@@ -4,6 +4,16 @@ gem 'rails', '3.2.1'
 gem 'mysql2'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0'
+gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+
+
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'uglifier', '>= 1.0.3'
+end
 
 group :development do
   gem 'rspec-rails', '2.6.1'
@@ -16,3 +26,10 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'factory_girl_rails', '1.0'  
 end
+
+
+
+
+
+
+
